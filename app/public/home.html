@@ -1,0 +1,60 @@
+    
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Friend Finder App | Morgan Greenwalt</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="app/css/main.css">
+    <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
+</head>
+
+<style>
+    .jumbotron {
+        margin-top: 175px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    
+    @media only screen and (max-width: 992px) {
+        .jumbotron {
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+    }
+    
+    @media only screen and (max-width: 580px) {
+        .jumbotron {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        h3 {
+            font-size: 18px;
+        }
+    }
+</style>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h1 class=""><i class="fa fa-facebook-square" aria-hidden="true"></i> Friend Finder</h1>
+            <h3>Answer a few basic questions.Then find the friend with the greatest compatibility!</h3>
+            <hr>
+            <a href="/survey"><button type="button" id ="reserve" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-list-alt"></span>   Take Survey</button></a>
+        </div>
+
+        <div class="footer text-center">
+            <a href="/api/friends">API Friends List</a>
+            <span>|</span>
+            <a href="https://github.com/morgangreenwalt/friend-finder">GitHub Repo</a>
+        </div>
+
+    </div>
+</body>
+
+</html>
